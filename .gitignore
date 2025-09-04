@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# C
+*.out
+*.o
+a.out
+
+# Rust
+/target
+Cargo.lock
+
+# Node.js
+node_modules/
+
+# Others
+*.log
+*.tmp
