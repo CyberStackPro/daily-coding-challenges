@@ -1,37 +1,69 @@
 # Daily Coding Challenges
 
-This repository serves as a personal "code gym" for practicing various programming challenges, including those from Advent of Code and Project Euler. The goal is to solve problems in multiple languages (Python, JavaScript, C, Rust) to deepen my understanding of algorithms, data structures, and language-specific features.
+Welcome to my personal "code gym"—a space for practicing programming challenges and honing problem-solving skills. This repository includes solutions to a variety of coding problems from sources like **Advent of Code** and **Project Euler**, implemented in multiple programming languages.
 
-## Repository Structure
+---
 
-The project is organized into two main sections:
+## 📁 Repository Structure
 
-- `advent-of-code`: Solutions for the yearly Advent of Code challenges. Each year has its own subdirectory, with subfolders for different programming languages.
-- `math-problems`: Solutions for problems from Project Euler, a series of challenging mathematical/computer programming problems.
+```bash
+daily-coding-challenges/
+│
+├── advent-of-code/
+│   ├── <year>/
+│   │   ├── <language>/
+│   │   │   └── <problem-files>
+│
+└── math-problems/
+    ├── <language>/
+    │   └── <problem-files>
+```
 
-## Getting Started
+- **`advent-of-code/`**  
+  Solutions for yearly Advent of Code challenges.  
+  - Organized by year (e.g., `2024/`)  
+  - Contains subfolders for different programming languages (e.g., `python/`, `rust/`)
 
-To create a new problem entry, you can use the provided bash scripts.
+- **`math-problems/`**  
+  Solutions for Project Euler and other mathematical challenges.  
+  - Organized by language folders (e.g., `python/`, `cpp/`)
 
-### For Advent of Code:
+---
 
-Use the `advent-of-code.sh` script to set up the file structure for a new daily problem.
+## 🚀 Getting Started
+
+To streamline problem setup, use the provided bash scripts:
+
+### Advent of Code
+
+Create a new problem folder with:
 
 ```sh
 ./advent-of-code.sh <PROBLEM_NUMBER> <PROBLEM_TITLE> [YEAR]
 ```
 
-Example: ./advent-of-code.sh 001 historian_hysteria 2024
+**Example:**
+```sh
+./advent-of-code.sh 001 historian_hysteria 2024
+```
 
-For Project Euler:
+---
 
-Use the new-math.sh script to create files for a new Project Euler problem.
-Bash
+### Project Euler (Math Problems)
 
+Set up a new math problem with:
+
+```sh
 ./new-math.sh <PROBLEM_NUMBER> <PROBLEM_TITLE>
+```
 
-Example: ./new-math.sh 001 multiples-of-3-or-5
+**Example:**
+```sh
+./new-math.sh 001 multiples-of-3-or-5
+```
 
-Contributing
+---
 
-This is a personal practice repository, but feel free to explore the solutions or use the setup scripts for your own practice.
+## 🤝 Contributing
+
+This repository is primarily for personal practice, but you're welcome to explore the solutions or use the setup scripts for your own coding journey!
