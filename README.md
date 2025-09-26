@@ -20,3 +20,18 @@ Use the `advent-of-code.sh` script to set up the file structure for a new daily 
 ```sh
 ./advent-of-code.sh <PROBLEM_NUMBER> <PROBLEM_TITLE> [YEAR]
 ```
+
+Example: ./advent-of-code.sh 001 historian_hysteria 2024
+
+For Project Euler:
+
+Use the new-math.sh script to create files for a new Project Euler problem.
+Bash
+
+./new-math.sh <PROBLEM_NUMBER> <PROBLEM_TITLE>
+
+Example: ./new-math.sh 001 multiples-of-3-or-5
+
+Contributing
+
+This is a personal practice repository, but feel free to explore the solutions or use the setup scripts for your own practice.
